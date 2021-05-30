@@ -1,17 +1,20 @@
 {
-  "name": "@pantherswap-libs/sdk",
+  "name": "@dragonstashdefi/dragon-stash-defi-swap-sdk",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of pantherswap.",
+  "description": "🛠 An SDK for building applications on top of dragonstash.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pantherswap/panther-swap-sdk.git",
+  "repository": "https://github.com/DragonStashDefi/dragon-stash-defi-swap-sdk",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dragonstashdefi"
+  },
   "keywords": [
-    "pantherswap",
-    "ethereum"
+    "dragonstash",
+    "bsc"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -19,11 +22,10 @@
     "lint:fix": "tsdx lint src test --fix",
     "build": "tsdx build",
     "start": "tsdx watch",
-    "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "test": "tsdx test"
   },
   "dependencies": {
-    "@pantherswap-libs/panther-swap-core": "^0.1.0",
+    "dragon-stash-defi-core-contract": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
