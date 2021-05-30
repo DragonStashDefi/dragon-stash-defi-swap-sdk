@@ -1,4 +1,4 @@
-# PantherSwap SDK
+# DragonStash SDK
 
 ## Running tests
 
@@ -7,13 +7,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/pantherswap/panther-swap-sdk.git
+git clone https://github.com/dragonstashdefi/dragon-stash-defi-swap-sdk.git
 ```
 
-Move into the panther-swap-sdk working directory
+Move into the dragon-stash-defi-swap-sdk working directory
 
 ```sh
-cd panther-swap-sdk/
+cd dragon-stash-defi-swap-sdk/
 ```
 
 Install dependencies
